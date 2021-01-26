@@ -31,6 +31,16 @@ body {
   background-color: #f5f5f5;
   font-family: "PT Sans", sans-serif;
   color: #787b80;
+  line-height: 24px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  /* Осторожно */
+  min-height: 100%;
+  overflow: hidden;
+  /* Осторожно */
 }
 
 .container {
@@ -43,6 +53,17 @@ body {
   color: #ffffff;
   background-color: #50c3af;
   border-radius: 25px;
+}
+
+.title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #40474e;
+}
+
+.description {
+  font-size: 19px;
+  color: #787b80;
 }
 
 .header {
@@ -108,7 +129,6 @@ body {
 }
 
 .header__subtitle {
-  font-family: "PT Sans", sans-serif;
   font-size: 20px;
 }
 .header__subtitle::before {
@@ -122,4 +142,86 @@ body {
   line-height: 64px;
   text-align: center;
   font-size: 20px;
+}
+
+.categories {
+  padding: 27px 0 100px 0;
+  background-color: #eeeeef;
+}
+
+.categories__body {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.categories__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories__itemColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.categories__itemImageContainer {
+  flex: 0 0 60px;
+}
+
+.categories__itemImage {
+  width: 100%;
+}
+
+.categories__itemTitle {
+  font-size: 21px;
+  margin-bottom: 21px;
+}
+
+.categories__underline {
+  height: 2px;
+  width: 135px;
+  background-color: #e4e4e6;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.categories__itemDescription {
+  max-width: 230px;
+}
+
+.footer__row {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__copyrightText {
+  color: #aaacaf;
+  font-size: 19px;
+  font-family: "PT Sans", sans-serif;
+}
+.footer__copyrightText span {
+  color: #787b80;
+}
+
+.footer__socialMedias {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__socialMediasIcons a {
+  color: #787b80;
+  font-size: 19px;
+}
+.footer__socialMediasIcons a i:nth-child(n) {
+  margin-left: 19px;
 }
