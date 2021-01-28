@@ -349,6 +349,48 @@ body {
   margin-bottom: 48px;
 }
 
+.forYou {
+  padding: 81px 0 82px 0;
+}
+
+.forYou__row {
+  display: flex;
+  margin: 0 0 0 -72px;
+}
+
+.forYou__imageWrapper {
+  flex: 1 1 50%;
+  padding: 0 0 0 72px;
+}
+
+.forYou__image {
+  width: 100%;
+}
+
+.forYou__item {
+  flex: 0 1 50%;
+  padding: 0 0 0 72px;
+}
+
+.forYou__title {
+  font-size: 21px;
+  margin-bottom: 31px;
+}
+
+.forYou__underline {
+  width: 385px;
+  height: 2px;
+  margin-bottom: 41px;
+}
+
+.forYou__description {
+  margin-bottom: 39px;
+}
+
+.forYou__rmb {
+  background-color: #d2d5da;
+}
+
 .footer__row {
   height: 80px;
   display: flex;
