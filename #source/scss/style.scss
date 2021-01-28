@@ -235,8 +235,6 @@ body{
   margin-bottom: 51px;
   max-width: 780px;
 }
-.articles__rmbWrapper {
-}
 .support__rmb {
   background-color: #d2d5da;
 }
@@ -278,6 +276,37 @@ body{
 .benefits__checkButton {
   font-size: 17px;
   color: #50c3af;
+}
+.prompting {
+  padding: 88px 0 81px 0;
+  background-color: #eeeeef;
+}
+.prompting__row {
+  display: flex;
+}
+.prompting__item {
+  flex: 0 1 50%;
+}
+.prompting__title {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.prompting__icon {
+  color: #c6cbd1;
+  margin-right: 20px;
+}
+.prompting__underline {
+  height: 2px;
+  width: 334px;
+  margin-bottom: 37px;
+}
+.prompting__description {
+  max-width: 350px;
+  margin-bottom: 48px;
+}
+.prompting__rmbWrapper {
+}
+.prompting__rmb {
 }
 .footer {
 }
