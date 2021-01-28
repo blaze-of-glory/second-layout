@@ -14,14 +14,14 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Conv_Fontfabric - NexaRegular";
+  font-family: "NexaRegular";
   src: url("/fonts/Fontfabric - NexaRegular.eot");
   src: local("☺"), url("/fonts/Fontfabric - NexaRegular.woff") format("woff"), url("/fonts/Fontfabric - NexaRegular.ttf") format("truetype"), url("/fonts/Fontfabric - NexaRegular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Nexa";
+  font-family: "Nexa_Bold";
   src: url("/fonts/Nexa Bold.eot");
   src: local("☺"), url("/fonts/Nexa Bold.woff") format("woff"), url("/fonts/Nexa Bold.ttf") format("truetype"), url("/fonts/Nexa Bold.svg") format("svg");
   font-weight: normal;
@@ -389,6 +389,69 @@ body {
 
 .forYou__rmb {
   background-color: #d2d5da;
+}
+
+.partners {
+  padding: 70px 0 97px 0;
+  background-color: #50c3af;
+}
+
+.partners__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners__title {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.partners__icon {
+  margin-right: 20px;
+  opacity: 0.3;
+}
+
+.partners__underline {
+  width: 334px;
+  height: 2px;
+  background-color: #f5f5f5;
+  opacity: 0.1;
+  align-items: center;
+  margin-bottom: 53px;
+}
+
+.partners__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.partners__item {
+  opacity: 0.7;
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.partners__p1 {
+  font-family: "Belinda", sans-serif;
+  font-weight: 400;
+}
+
+.partners__p2 {
+  font-family: "NexaRegular", sans-serif;
+  font-weight: 400;
+}
+
+.partners__p3 {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+}
+
+.partners__p4 {
+  font-family: "Nexa_Bold", sans-serif;
+  font-weight: 900;
 }
 
 .footer__row {
