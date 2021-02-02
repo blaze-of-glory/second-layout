@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 */
+/*--------------- Шрифты--------------- */
 @import url("https://fonts.googleapis.com/css2?family=Cabin&family=Open+Sans:wght@600&family=PT+Sans:wght@400;700&family=Ubuntu:wght@700&display=swap");
 @font-face {
   font-family: "Belinda";
@@ -27,6 +28,8 @@
   font-weight: normal;
   font-style: normal;
 }
+/*--------------- /Шрифты--------------- */
+/*--------------- Общие стили--------------- */
 body {
   background-color: #f5f5f5;
   font-family: "PT Sans", sans-serif;
@@ -38,8 +41,7 @@ body {
   display: flex;
   flex-direction: column;
   /* Осторожно */
-  min-height: 100%;
-  overflow: hidden;
+  min-height: 100vh;
   /* Осторожно */
 }
 
@@ -79,17 +81,19 @@ body {
   color: #787b80;
 }
 
+.content__body {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/*---------------/Общие стили--------------- */
+/*---------------Шапка сайта--------------- */
 .header {
   color: #ffffff;
   text-align: center;
   height: 100vh;
-  background: url("/img/header/01.png") no-repeat;
+  background: url("/img/header/01.png") center/cover no-repeat;
   background-size: 100%;
-}
-
-.content__body {
-  max-width: 900px;
-  margin: 0 auto;
 }
 
 .header__column {
@@ -157,6 +161,9 @@ body {
   font-size: 20px;
 }
 
+/*---------------/Шапка сайта--------------- */
+/*---------------Контентная часть--------------- */
+/*---------------Блок категории--------------- */
 .categories {
   padding: 27px 0 100px 0;
   background-color: #eeeeef;
@@ -197,6 +204,8 @@ body {
   max-width: 230px;
 }
 
+/*---------------/Блок категории--------------- */
+/*---------------Статьи--------------- */
 .articles {
   padding: 65px 0 106px 0;
 }
@@ -236,6 +245,8 @@ body {
   margin-bottom: 45px;
 }
 
+/*---------------/Статьи--------------- */
+/*---------------Поддержка--------------- */
 .support {
   padding: 92px 0 85px 0;
   background-color: #eeeeef;
@@ -266,6 +277,8 @@ body {
   background-color: #d2d5da;
 }
 
+/*---------------/Поддержка--------------- */
+/*---------------Наши плюсы--------------- */
 .benefits {
   padding: 82px 0 93px 0;
 }
@@ -315,6 +328,8 @@ body {
   color: #50c3af;
 }
 
+/*---------------/Наши плюсы--------------- */
+/*---------------Побуждение--------------- */
 .prompting {
   padding: 88px 0 81px 0;
   background-color: #eeeeef;
@@ -349,6 +364,8 @@ body {
   margin-bottom: 48px;
 }
 
+/*---------------/Побуждение--------------- */
+/*---------------Персональное предложение--------------- */
 .forYou {
   padding: 81px 0 82px 0;
 }
@@ -391,6 +408,8 @@ body {
   background-color: #d2d5da;
 }
 
+/*---------------/Персональное предложение--------------- */
+/*---------------Наши партнёры--------------- */
 .partners {
   padding: 70px 0 97px 0;
   background-color: #50c3af;
@@ -454,6 +473,9 @@ body {
   font-weight: 900;
 }
 
+/*---------------/Наши партнёры--------------- */
+/*---------------/Конетнтная часть--------------- */
+/*---------------Подвал сайта--------------- */
 .footer__row {
   height: 80px;
   display: flex;
@@ -488,3 +510,5 @@ body {
 .footer__socialMediasIcons a i:nth-child(n) {
   margin-left: 19px;
 }
+
+/*---------------/Подвал сайта--------------- */
