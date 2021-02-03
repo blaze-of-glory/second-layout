@@ -5,20 +5,24 @@
     <title>Blog</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/6b8851dce6.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
             <div class="content__body">
                 <div class="header__column">
-                    <div class="header__logoTitle">Elena</div>
+                    <a class="header__logoTitle">Elena</a>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
                     <nav class="header__navigation">
-                        <div class="header__navigationRow">
-                            <a href="#">HOME</a>
-                            <a href="#">SERVICES</a>
-                            <a href="#">FEATURES</a>
-                            <a href="#">CONTACT</a>
-                        </div>
+                        <ul class="header__navigationRow">
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">SERVICES</a></li>
+                            <li><a href="#">FEATURES</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                        </ul>
                     </nav>
                     <div class="header__mainTitle">
                         <h1 class="header__mainTitleText">HAVE A GOOD DAY</h1>
@@ -222,5 +226,7 @@
             </div>
         </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
