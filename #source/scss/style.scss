@@ -8,22 +8,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Open+Sans:wght@600&family=PT+Sans:wght@400;700&family=Ubuntu:wght@700&display=swap');
 @font-face {
   font-family: 'Belinda';
-  src: url('/fonts/Belinda Regular.eot');
-  src: local('☺'), url('/fonts/Belinda Regular.woff') format('woff'), url('/fonts/Belinda Regular.ttf') format('truetype'), url('/fonts/Belinda Regular.svg') format('svg');
+  src: url('../fonts/Belinda Regular.eot');
+  src: local('☺'), url('../fonts/Belinda Regular.woff') format('woff'), url('../fonts/Belinda Regular.ttf') format('truetype'), url('../fonts/Belinda Regular.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'NexaRegular';
-  src: url('/fonts/Fontfabric - NexaRegular.eot');
-  src: local('☺'), url('/fonts/Fontfabric - NexaRegular.woff') format('woff'), url('/fonts/Fontfabric - NexaRegular.ttf') format('truetype'), url('/fonts/Fontfabric - NexaRegular.svg') format('svg');
+  src: url('../fonts/Fontfabric - NexaRegular.eot');
+  src: local('☺'), url('../fonts/Fontfabric - NexaRegular.woff') format('woff'), url('../fonts/Fontfabric - NexaRegular.ttf') format('truetype'), url('../fonts/Fontfabric - NexaRegular.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Nexa_Bold';
-  src: url('/fonts/Nexa Bold.eot');
-  src: local('☺'), url('/fonts/Nexa Bold.woff') format('woff'), url('/fonts/Nexa Bold.ttf') format('truetype'), url('/fonts/Nexa Bold.svg') format('svg');
+  src: url('../fonts/Nexa Bold.eot');
+  src: local('☺'), url('../fonts/Nexa Bold.woff') format('woff'), url('../fonts/Nexa Bold.ttf') format('truetype'), url('../fonts/Nexa Bold.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -51,8 +51,11 @@ body{
 .button {
   display: inline-block;
   color:  #ffffff;
-  background-color: #50c3af;
+  background-color: #d2d5da;
   border-radius: 25px;
+  &:hover {
+    color: #d2d5da;
+  }
 }
 .rmb{
   width: 130px;
@@ -60,6 +63,11 @@ body{
   line-height: 47px;
   text-align: center;
   font-size: 17px;
+  &:hover {
+    transition: 0.3s;
+    color:  #ffffff;
+    background-color: #50c3af;
+  }
 }
 .title{
   font-weight: 700;
@@ -104,7 +112,7 @@ body{
   color: #ffffff;
   text-align: center;
   height: 100vh;
-  background: url("/img/header/01.png") center / cover no-repeat;
+  background: url("../img/header/01.png") center / cover no-repeat;
 }
 .header__column {
   display: flex;
@@ -134,6 +142,10 @@ body{
     font-weight: 600;
     text-transform: uppercase;
     color: #ffffff;
+    &:hover {
+      transition: 0.5s;
+      color: #d2d5da;
+    }
   }
   & a:nth-child(n){
     margin-left: 35px;
